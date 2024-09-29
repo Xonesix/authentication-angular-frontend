@@ -5,6 +5,10 @@ input {
 label {
   margin-top: 10px;
 }
+p {
+  font-weight: bolder;
+  color: red;
+}
 
 button {
   margin-top: 10px;
