@@ -1,0 +1,29 @@
+input {
+  padding: 10px;
+  margin-top: 10px;
+}
+label {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 0ch;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: rgb(175, 175, 175);
+  color: rgb(146, 137, 137);
+  cursor: default;
+}
+#userform {
+  display: flex;
+  flex-direction: column;
+
+  width: 15rem;
+}
